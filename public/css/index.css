@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #00b5cc;
+}
+
+/* Headings start*/
+
+.big_headings {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Monteserrat", sans-serif;
+  color: #000;
+}
+
+.small_headings {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+/* Headings end */
+
+/* Testimonials start */
+
+.my-slider .carousel-control-prev:hover,
+.my-slider .carousel-control-next:hover {
+  background: var(--bs-dark);
+  opacity: 0.5;
+}
+
+
+#el01{
+    text-align: center;
+    color: #ececec;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    padding: 10%;
+  }
+
+  .my-slider img{
+    margin-top: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.596); */
+}
+/* Testimonials end */
+
+/* Footer Starts */
+
+.nav-head {
+    text-align: center;
+    color: var(--pure);
+}
+
+footer .container-footer {
+    background: rgb(24, 23, 23);
+    color: #fff;
+    height: 75vh;
+}
+
+footer .container-footer .nav-head {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transform: translateX(1.5%);
+    margin-top: 10%;
+}
+
+footer .container-footer .nav-head:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: lime;
+    left: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+footer .container-footer .nav-head:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: lime;
+    right: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+footer .container-footer .nav-footer .foot-link {
+    transform: translateY(2rem);
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+footer .container-footer .nav-footer .foot-link:hover {
+    text-decoration: 2px lime underline;
+    color: darkgray;
+}
+
+footer .container-footer .nav-footer .foot-link img.inverted-logo{
+    filter: invert(100%);
+    transform: translate(-50%,2%);
+}
+
+.github-logo{
+    width: 36px;
+    filter: invert(100%);
+}
+
+/* Footer End */
+
