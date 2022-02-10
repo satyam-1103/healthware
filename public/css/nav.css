@@ -4,7 +4,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 5vh;
-    background-color: var(--bs-teal);
+    background-color: #5D8CAE;
     padding: 3%;
 }
 
@@ -45,7 +45,7 @@ nav{
 }
 
 .nav-links a.active {
-    background-color: var(--indigo-custom);
+    background-color: #8E44AD;
     border-radius: 15px;
     padding: 10px;
 }

@@ -1,0 +1,14 @@
+.find-centre {
+    background: rgb(250, 83, 116);
+    padding: 7%;
+    text-align: center;
+    /* padding-left: 13%; */
+}
+
+.container-footer {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+}
+
