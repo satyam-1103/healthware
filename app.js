@@ -5,9 +5,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 
+
 app.use(express.static('public'));
 app.use('/css',express.static(__dirname + 'public/css'));
-app.use('/img',express.static(__dirname + 'public/img'));
+app.use('/img',express.static(__dirname + 'public/assets'));
 app.get("/",(req,res) => {
     res.sendFile("/index.html");
 })
